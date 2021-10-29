@@ -996,7 +996,7 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@grafana/data@7.3.6", "@grafana/data@^7.3.6":
+"@grafana/data@7.3.6":
   version "7.3.6"
   resolved "https://registry.yarnpkg.com/@grafana/data/-/data-7.3.6.tgz#04b3e90ddce31a76bc0831cacb5b996665776c05"
   integrity sha512-mIUfvSxjon1kuSeAmIpVgmNZA78GguxZESchhuzNFzWXkpj/WTW92NGrQxr6AfEz2UKsytcIGzo3TIKVMCrXmw==
@@ -1019,6 +1019,20 @@
     eventemitter3 "4.0.7"
     lodash "4.17.20"
     marked "1.2.2"
+    rxjs "6.6.3"
+    xss "1.0.6"
+
+"@grafana/data@^7.5.11":
+  version "7.5.11"
+  resolved "https://registry.yarnpkg.com/@grafana/data/-/data-7.5.11.tgz#bebe312705c4b4225c16bf8853aa15dceb67dcea"
+  integrity sha512-pUPum4Aft7Dp1x6lWysEPPZuB2bDxHMAFJbGvAFFsYsCSaPmqBKdq3X3ceuSkqXQ9FfaDbVFt4bbIrH6p6P2dQ==
+  dependencies:
+    "@braintree/sanitize-url" "4.0.0"
+    "@types/d3-interpolate" "^1.3.1"
+    apache-arrow "0.16.0"
+    eventemitter3 "4.0.7"
+    lodash "4.17.21"
+    marked "2.0.1"
     rxjs "6.6.3"
     xss "1.0.6"
 
@@ -9159,6 +9173,11 @@ lodash@4.17.20, lodash@^4.0.0, lodash@^4.0.1, lodash@^4.1.1, lodash@^4.17.10, lo
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
+lodash@4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
 log-symbols@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-3.0.0.tgz#f3a08516a5dea893336a7dee14d18a1cfdab77c4"
@@ -9287,6 +9306,11 @@ marked@1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.2.tgz#5d77ffb789c4cb0ae828bfe76250f7140b123f70"
   integrity sha512-5jjKHVl/FPo0Z6ocP3zYhKiJLzkwJAw4CZoLjv57FkvbUuwOX4LIBBGGcXjAY6ATcd1q9B8UTj5T9Umauj0QYQ==
+
+marked@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.1.tgz#5e7ed7009bfa5c95182e4eb696f85e948cefcee3"
+  integrity sha512-5+/fKgMv2hARmMW7DOpykr2iLhl0NgjyELk5yn92iE7z8Se1IS9n3UsFm86hFXIkvMBmVxki8+ckcpjBeyo/hw==
 
 material-colors@^1.2.1:
   version "1.2.6"
@@ -10564,9 +10588,6 @@ postcss-convert-values@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-4.0.1.tgz#ca3813ed4da0f812f9d43703584e449ebe189a7f"
   integrity sha512-Kisdo1y77KUC0Jmn0OXU/COOJbzM8cImvw1ZFsBgBgMgb1iL23Zs/LXRe3r+EZqM3vGYKdQ2YJVQ5VkJI+zEJQ==
-  dependencies:
-    postcss "^7.0.0"
-    postcss-value-parser "^3.0.0"
 
 postcss-custom-media@^7.0.8:
   version "7.0.8"
